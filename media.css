@@ -1,0 +1,202 @@
+@media (max-width: 1000px) {
+
+    .main {
+        gap: 35px;
+    }
+
+    .image-circle {
+        width: 330px;
+        height: 330px;
+    }
+
+    .profile-image {
+        width: 280px;
+        height: 280px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-grid,
+    .skills-grid,
+    .service-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-card:last-child,
+    .service-item:last-child {
+        grid-column: span 2;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .navbar {
+        padding: 16px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 20px;
+    }
+
+    .btn-nav {
+        display: none;
+    }
+
+    .main {
+        padding: 65px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-actions,
+    .social-links {
+        justify-content: center;
+    }
+
+    .main-image {
+        min-height: 390px;
+    }
+
+    .image-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile-image {
+        width: 255px;
+        height: 255px;
+    }
+
+    .card-one {
+        top: 30px;
+        right: 0;
+    }
+
+    .card-two {
+        bottom: 25px;
+        left: 0;
+    }
+
+    .section {
+        padding: 70px 20px;
+    }
+
+    .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .skills-grid,
+    .project-grid,
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card:last-child,
+    .service-item:last-child {
+        grid-column: auto;
+    }
+
+    .project-download {
+        flex-direction: column;
+        text-align: center;
+        padding: 28px 20px;
+    }
+
+    .project-download .btn-primary {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 75px 20px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 14px 15px;
+    }
+
+    .nav-links {
+        font-size: 0.85rem;
+        gap: 10px 14px;
+    }
+
+    .main {
+        padding: 55px 15px;
+    }
+
+    .main-text h1 {
+        font-size: 3.2rem;
+    }
+
+    .main-text h2 {
+        font-size: 1.05rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .hero-actions,
+    .contact-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .image-circle {
+        width: 260px;
+        height: 260px;
+    }
+
+    .profile-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    .floating-card {
+        padding: 10px 12px;
+        font-size: 0.72rem;
+    }
+
+    .section {
+        padding: 60px 15px;
+    }
+
+    .about-box {
+        padding: 28px 22px;
+    }
+
+    .detail-card {
+        padding: 18px;
+    }
+
+    .detail-card p {
+        font-size: 0.8rem;
+    }
+
+    .contact {
+        padding: 65px 15px;
+    }
+
+    footer {
+        padding: 45px 20px 18px;
+    }
+}
